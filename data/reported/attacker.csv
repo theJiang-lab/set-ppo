@@ -1,0 +1,21 @@
+﻿method,attacker,access,growth,budget,budget_note
+Set-PPO,E0 reference,不看当前消息metadata,1.93,20,按相同消息观察预算定义
+Set-PPO,E0 adapted,不看当前消息metadata；单独适应,2.17,20,按相同消息观察预算定义
+Set-PPO,E1 reference,可看类型与目标读者,2.28,20,按相同消息观察预算定义
+Set-PPO,E1 adapted,可看类型与目标读者；单独适应,2.53,20,按相同消息观察预算定义
+Set-PPO,E2 KREQ-visible,新增：可观察KREQ；须定义消耗,2.78,20,KREQ可见模型需另行定义预算计数口径
+CPO,E0 reference,不看当前消息metadata,2.17,20,按相同消息观察预算定义
+CPO,E0 adapted,不看当前消息metadata；单独适应,2.42,20,按相同消息观察预算定义
+CPO,E1 reference,可看类型与目标读者,2.52,20,按相同消息观察预算定义
+CPO,E1 adapted,可看类型与目标读者；单独适应,2.78,20,按相同消息观察预算定义
+CPO,E2 KREQ-visible,新增：可观察KREQ；须定义消耗,3.09,20,KREQ可见模型需另行定义预算计数口径
+RCPO,E0 reference,不看当前消息metadata,2.13,20,按相同消息观察预算定义
+RCPO,E0 adapted,不看当前消息metadata；单独适应,2.39,20,按相同消息观察预算定义
+RCPO,E1 reference,可看类型与目标读者,2.48,20,按相同消息观察预算定义
+RCPO,E1 adapted,可看类型与目标读者；单独适应,2.72,20,按相同消息观察预算定义
+RCPO,E2 KREQ-visible,新增：可观察KREQ；须定义消耗,3.02,20,KREQ可见模型需另行定义预算计数口径
+Knowledge-aware Greedy,E0 reference,不看当前消息metadata,2.25,20,按相同消息观察预算定义
+Knowledge-aware Greedy,E0 adapted,不看当前消息metadata；单独适应,2.51,20,按相同消息观察预算定义
+Knowledge-aware Greedy,E1 reference,可看类型与目标读者,2.59,20,按相同消息观察预算定义
+Knowledge-aware Greedy,E1 adapted,可看类型与目标读者；单独适应,2.89,20,按相同消息观察预算定义
+Knowledge-aware Greedy,E2 KREQ-visible,新增：可观察KREQ；须定义消耗,3.18,20,KREQ可见模型需另行定义预算计数口径

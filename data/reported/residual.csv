@@ -1,0 +1,6 @@
+﻿method,tcr,growth,kfb,localization
+Residual KREQ,88.7,1.93,0.69,79.8
+Posterior Gap,86.9,2.1,1.29,68.4
+Shuffled Residual,72.4,2.38,1.59,47.6
+Random Gap,69.1,2.52,1.72,35.9
+Oracle Gap,92,1.88,1.09,100.0

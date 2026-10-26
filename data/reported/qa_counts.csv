@@ -1,0 +1,9 @@
+﻿Count,No-KFB,KREQ--KFB
+Tasks,16,16
+Initially passed,10,10
+Initially failed,6,6
+KFB messages,0,6
+Newly completed,0,3
+Finally passed,10,13
+Finally failed,6,3
+Correct / scored,32/48,36/48

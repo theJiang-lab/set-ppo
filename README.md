@@ -78,7 +78,7 @@ Sixteen unit tests passed before release, checking numerical invariants, access 
 python -m pytest -q
 ```
 
-`configs/smoke.json` and `setppo synthetic` are offline developer fixtures, labeled `synthetic_smoke`. They are not MIND experiments. CI is manual and runs invariant tests only.
+`configs/smoke.json` and `setppo synthetic` are offline developer fixtures, labeled `synthetic_smoke`. They are not MIND experiments. An optional manual CI example is provided in `docs/ci-example.yml`; no workflow is automatically installed.
 
 ## Layout
 

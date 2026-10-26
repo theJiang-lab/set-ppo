@@ -1,0 +1,94 @@
+{
+  "source": "data/自动化问答验证实验.docx",
+  "source_sha256": "51a19a47f31c39129ed191ea80d29948c69f1cbf3c6d27b207f7a109ba430f2d",
+  "evidence_status": "completed experiment aggregates; confirmed by author in this conversation on 2026-10-26",
+  "articles": 32,
+  "simulated_receivers": 4,
+  "total_task_instances": 32,
+  "questions_per_test": 3,
+  "minimum_correct_for_completion": 2,
+  "max_repairs_per_failed_task": 1,
+  "scoring": "last valid three-question test per task; repair retest responses are not added to the final-score denominator",
+  "scope": "automated QA utility with synthetic receiver knowledge; not human or observer-security measurements",
+  "independent_of_primary_47_records": true,
+  "new_training_or_evaluation_executed_by_this_update": false,
+  "rounding": "percentages from integer counts, ROUND_HALF_UP to one decimal place",
+  "conditions": [
+    {
+      "method": "No-KFB",
+      "source_cells": {
+        "task_count": "word/document.xml/table[6]/row[2]/cell[2]",
+        "initial_passed": "word/document.xml/table[6]/row[3]/cell[2]",
+        "initial_failed": "word/document.xml/table[6]/row[4]/cell[2]",
+        "feedback_count": "word/document.xml/table[6]/row[5]/cell[2]",
+        "newly_completed": "word/document.xml/table[6]/row[6]/cell[2]",
+        "final_passed": "word/document.xml/table[6]/row[7]/cell[2]",
+        "final_failed": "word/document.xml/table[6]/row[8]/cell[2]",
+        "correct_answers": "word/document.xml/table[6]/row[9]/cell[2]"
+      },
+      "task_count": 16,
+      "initial_passed": 10,
+      "initial_failed": 6,
+      "feedback_count": 0,
+      "newly_completed": 0,
+      "final_passed": 10,
+      "final_failed": 6,
+      "correct_answers": 32,
+      "scored_questions": 48,
+      "question_type_correct": {
+        "factual": 12,
+        "knowledge": 11,
+        "reasoning": 9
+      },
+      "qa_accuracy_pct": 66.7,
+      "qa_tcr_pct": 62.5,
+      "knowledge_qa_pct": 68.8,
+      "repair_success_pct": null
+    },
+    {
+      "method": "KREQ-KFB",
+      "source_cells": {
+        "task_count": "word/document.xml/table[6]/row[2]/cell[3]",
+        "initial_passed": "word/document.xml/table[6]/row[3]/cell[3]",
+        "initial_failed": "word/document.xml/table[6]/row[4]/cell[3]",
+        "feedback_count": "word/document.xml/table[6]/row[5]/cell[3]",
+        "newly_completed": "word/document.xml/table[6]/row[6]/cell[3]",
+        "final_passed": "word/document.xml/table[6]/row[7]/cell[3]",
+        "final_failed": "word/document.xml/table[6]/row[8]/cell[3]",
+        "correct_answers": "word/document.xml/table[6]/row[9]/cell[3]"
+      },
+      "task_count": 16,
+      "initial_passed": 10,
+      "initial_failed": 6,
+      "feedback_count": 6,
+      "newly_completed": 3,
+      "final_passed": 13,
+      "final_failed": 3,
+      "correct_answers": 36,
+      "scored_questions": 48,
+      "question_type_correct": {
+        "factual": 13,
+        "knowledge": 13,
+        "reasoning": 10
+      },
+      "qa_accuracy_pct": 75.0,
+      "qa_tcr_pct": 81.3,
+      "knowledge_qa_pct": 81.3,
+      "repair_success_pct": 50.0
+    }
+  ],
+  "kreq_correct_count_distribution": {
+    "initial": [
+      1,
+      5,
+      3,
+      7
+    ],
+    "final": [
+      1,
+      2,
+      5,
+      8
+    ]
+  }
+}

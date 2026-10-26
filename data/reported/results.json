@@ -1,0 +1,954 @@
+{
+  "origin": "author-supplied manuscript aggregates; not produced by this implementation",
+  "new_training_or_evaluation_executed": false,
+  "record_count": 47,
+  "source_sha256": "701ee540a58c8b17ce4b5b28b33014d88e36bf623028d51e8b5b11d806f80e57",
+  "supplementary_source_sha256": "7b8bb74cecc00d710fb73b9942ecb9cb7139bbb6d2154cc98a8322d1af744ea1",
+  "groups": {
+    "main": [
+      {
+        "id": "main-01",
+        "group": "main",
+        "source_cells": {
+          "method": "01_主对比_P0!A6",
+          "tcr": "01_主对比_P0!B6",
+          "feasibility": "01_主对比_P0!C6",
+          "growth": "01_主对比_P0!D6",
+          "discovery": "01_主对比_P0!E6"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Set-PPO",
+        "tcr": 88.7,
+        "feasibility": 77.3,
+        "growth": 1.93,
+        "discovery": 2.34,
+        "overlap_with": [],
+        "mean_tcr_matched": true,
+        "mean_service_feasible": true,
+        "delta_growth_set_minus_row": 0.0
+      },
+      {
+        "id": "main-02",
+        "group": "main",
+        "source_cells": {
+          "method": "01_主对比_P0!A7",
+          "tcr": "01_主对比_P0!B7",
+          "feasibility": "01_主对比_P0!C7",
+          "growth": "01_主对比_P0!D7",
+          "discovery": "01_主对比_P0!E7"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "CPO",
+        "tcr": 87.6,
+        "feasibility": 72.8,
+        "growth": 2.17,
+        "discovery": 2.53,
+        "overlap_with": [],
+        "mean_tcr_matched": false,
+        "mean_service_feasible": true,
+        "delta_growth_set_minus_row": -0.24
+      },
+      {
+        "id": "main-03",
+        "group": "main",
+        "source_cells": {
+          "method": "01_主对比_P0!A8",
+          "tcr": "01_主对比_P0!B8",
+          "feasibility": "01_主对比_P0!C8",
+          "growth": "01_主对比_P0!D8",
+          "discovery": "01_主对比_P0!E8"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "RCPO",
+        "tcr": 88,
+        "feasibility": 74.5,
+        "growth": 2.13,
+        "discovery": 2.48,
+        "overlap_with": [],
+        "mean_tcr_matched": true,
+        "mean_service_feasible": true,
+        "delta_growth_set_minus_row": -0.2
+      },
+      {
+        "id": "strpo-a",
+        "group": "main",
+        "source_workbook": "data/sTRPO_基线对比与实验规划.xlsx",
+        "source_cells": {
+          "configuration_label": "sTRPO情景!A5",
+          "tcr": "sTRPO情景!B5",
+          "growth": "sTRPO情景!C5"
+        },
+        "method": "sTRPO-A",
+        "tcr": 84.5,
+        "growth": 2.25,
+        "feasibility": 66.8,
+        "discovery": 2.65,
+        "overlap_with": [],
+        "mean_tcr_matched": false,
+        "mean_service_feasible": false,
+        "delta_growth_set_minus_row": -0.32
+      },
+      {
+        "id": "strpo-b",
+        "group": "main",
+        "source_workbook": "data/sTRPO_基线对比与实验规划.xlsx",
+        "source_cells": {
+          "configuration_label": "sTRPO情景!A6",
+          "tcr": "sTRPO情景!B6",
+          "growth": "sTRPO情景!C6"
+        },
+        "method": "sTRPO-B",
+        "tcr": 87.9,
+        "growth": 2.08,
+        "feasibility": 74.1,
+        "discovery": 2.08,
+        "overlap_with": [],
+        "mean_tcr_matched": true,
+        "mean_service_feasible": true,
+        "delta_growth_set_minus_row": -0.15
+      },
+      {
+        "id": "strpo-c",
+        "group": "main",
+        "source_workbook": "data/sTRPO_基线对比与实验规划.xlsx",
+        "source_cells": {
+          "configuration_label": "sTRPO情景!A7",
+          "tcr": "sTRPO情景!B7",
+          "growth": "sTRPO情景!C7"
+        },
+        "method": "sTRPO-C",
+        "tcr": 88.0,
+        "growth": 2.01,
+        "feasibility": 78.0,
+        "discovery": 2.06,
+        "overlap_with": [],
+        "mean_tcr_matched": true,
+        "mean_service_feasible": true,
+        "delta_growth_set_minus_row": -0.08
+      },
+      {
+        "id": "main-04",
+        "group": "main",
+        "source_cells": {
+          "method": "01_主对比_P0!A9",
+          "tcr": "01_主对比_P0!B9",
+          "feasibility": "01_主对比_P0!C9",
+          "growth": "01_主对比_P0!D9",
+          "discovery": "01_主对比_P0!E9"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Knowledge-aware Greedy",
+        "tcr": 86.4,
+        "feasibility": 70.9,
+        "growth": 2.25,
+        "discovery": 2.64,
+        "overlap_with": [],
+        "mean_tcr_matched": false,
+        "mean_service_feasible": true,
+        "delta_growth_set_minus_row": -0.32
+      },
+      {
+        "id": "main-05",
+        "group": "main",
+        "source_cells": {
+          "method": "01_主对比_P0!A10",
+          "tcr": "01_主对比_P0!B10",
+          "feasibility": "01_主对比_P0!C10",
+          "growth": "01_主对比_P0!D10",
+          "discovery": "01_主对比_P0!E10"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Random",
+        "tcr": 84.8,
+        "feasibility": 66.5,
+        "growth": 2.67,
+        "discovery": 3.11,
+        "overlap_with": [],
+        "mean_tcr_matched": false,
+        "mean_service_feasible": false,
+        "delta_growth_set_minus_row": -0.74
+      },
+      {
+        "id": "main-06",
+        "group": "main",
+        "source_cells": {
+          "method": "01_主对比_P0!A11",
+          "tcr": "01_主对比_P0!B11",
+          "feasibility": "01_主对比_P0!C11",
+          "growth": "01_主对比_P0!D11",
+          "discovery": "01_主对比_P0!E11"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "KFB-first",
+        "tcr": 92.5,
+        "feasibility": 83.4,
+        "growth": 2.5,
+        "discovery": 2.9,
+        "overlap_with": [],
+        "mean_tcr_matched": false,
+        "mean_service_feasible": true,
+        "delta_growth_set_minus_row": -0.57
+      },
+      {
+        "id": "main-07",
+        "group": "main",
+        "source_cells": {
+          "method": "01_主对比_P0!A12",
+          "tcr": "01_主对比_P0!B12",
+          "feasibility": "01_主对比_P0!C12",
+          "growth": "01_主对比_P0!D12",
+          "discovery": "01_主对比_P0!E12"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Policy mixture (analytic)",
+        "tcr": 88.6,
+        "feasibility": 75.8,
+        "growth": 2.35,
+        "discovery": 2.67,
+        "overlap_with": [],
+        "mean_tcr_matched": true,
+        "mean_service_feasible": true,
+        "delta_growth_set_minus_row": -0.42
+      },
+      {
+        "id": "main-08",
+        "group": "main",
+        "source_cells": {
+          "method": "01_主对比_P0!A13",
+          "tcr": "01_主对比_P0!B13",
+          "feasibility": "01_主对比_P0!C13",
+          "growth": "01_主对比_P0!D13",
+          "discovery": "01_主对比_P0!E13"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "No-KFB",
+        "tcr": 18.7,
+        "feasibility": 0.6,
+        "growth": 0.31,
+        "discovery": 0,
+        "overlap_with": [],
+        "mean_tcr_matched": false,
+        "mean_service_feasible": false,
+        "delta_growth_set_minus_row": 1.62
+      }
+    ],
+    "ablation": [
+      {
+        "id": "ablation-01",
+        "group": "ablation",
+        "source_cells": {
+          "method": "02_模块消融_P1!A6",
+          "tcr": "02_模块消融_P1!B6",
+          "feasibility": "02_模块消融_P1!C6",
+          "growth": "02_模块消融_P1!D6",
+          "kfb": "02_模块消融_P1!E6",
+          "localization": "02_模块消融_P1!F6"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Full Set-PPO",
+        "tcr": 88.7,
+        "feasibility": 77.3,
+        "growth": 1.93,
+        "kfb": 0.69,
+        "localization": 79.8,
+        "overlap_with": [
+          "main-01"
+        ],
+        "mean_tcr_matched": true,
+        "delta_growth_row_minus_full": 0.0
+      },
+      {
+        "id": "ablation-02",
+        "group": "ablation",
+        "source_cells": {
+          "method": "02_模块消融_P1!A7",
+          "tcr": "02_模块消融_P1!B7",
+          "feasibility": "02_模块消融_P1!C7",
+          "growth": "02_模块消融_P1!D7",
+          "kfb": "02_模块消融_P1!E7",
+          "localization": "02_模块消融_P1!F7"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "w/o Adversarial Training",
+        "tcr": 89.4,
+        "feasibility": 77.8,
+        "growth": 2.38,
+        "kfb": 1.2,
+        "localization": 78.5,
+        "overlap_with": [],
+        "mean_tcr_matched": true,
+        "delta_growth_row_minus_full": 0.45
+      },
+      {
+        "id": "ablation-03",
+        "group": "ablation",
+        "source_cells": {
+          "method": "02_模块消融_P1!A8",
+          "tcr": "02_模块消融_P1!B8",
+          "feasibility": "02_模块消融_P1!C8",
+          "growth": "02_模块消融_P1!D8",
+          "kfb": "02_模块消融_P1!E8",
+          "localization": "02_模块消融_P1!F8"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "w/o Residual KREQ",
+        "tcr": 86.9,
+        "feasibility": 71.8,
+        "growth": 2.1,
+        "kfb": 1.29,
+        "localization": 68.4,
+        "overlap_with": [],
+        "mean_tcr_matched": false,
+        "delta_growth_row_minus_full": 0.17
+      },
+      {
+        "id": "ablation-04",
+        "group": "ablation",
+        "source_cells": {
+          "method": "02_模块消融_P1!A9",
+          "tcr": "02_模块消融_P1!B9",
+          "feasibility": "02_模块消融_P1!C9",
+          "growth": "02_模块消融_P1!D9",
+          "kfb": "02_模块消融_P1!E9",
+          "localization": "02_模块消融_P1!F9"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "w/o Belief Model",
+        "tcr": 85.8,
+        "feasibility": 69.9,
+        "growth": 2.25,
+        "kfb": 1.38,
+        "localization": 70,
+        "overlap_with": [],
+        "mean_tcr_matched": false,
+        "delta_growth_row_minus_full": 0.32
+      },
+      {
+        "id": "ablation-05",
+        "group": "ablation",
+        "source_cells": {
+          "method": "02_模块消融_P1!A10",
+          "tcr": "02_模块消融_P1!B10",
+          "feasibility": "02_模块消融_P1!C10",
+          "growth": "02_模块消融_P1!D10",
+          "kfb": "02_模块消融_P1!E10",
+          "localization": "02_模块消融_P1!F10"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "w/o Hierarchical Policy",
+        "tcr": 87.2,
+        "feasibility": 72.7,
+        "growth": 2.13,
+        "kfb": 1.27,
+        "localization": 76.5,
+        "overlap_with": [],
+        "mean_tcr_matched": false,
+        "delta_growth_row_minus_full": 0.2
+      },
+      {
+        "id": "ablation-06",
+        "group": "ablation",
+        "source_cells": {
+          "method": "02_模块消融_P1!A11",
+          "tcr": "02_模块消融_P1!B11",
+          "feasibility": "02_模块消融_P1!C11",
+          "growth": "02_模块消融_P1!D11",
+          "kfb": "02_模块消融_P1!E11",
+          "localization": "02_模块消融_P1!F11"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "w/o Set Encoder",
+        "tcr": 86.2,
+        "feasibility": 70.8,
+        "growth": 2.2,
+        "kfb": 1.34,
+        "localization": 73.6,
+        "overlap_with": [],
+        "mean_tcr_matched": false,
+        "delta_growth_row_minus_full": 0.27
+      }
+    ],
+    "attacker": [
+      {
+        "id": "attacker-01",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A6",
+          "attacker": "03_攻击鲁棒_P1!B6",
+          "access": "03_攻击鲁棒_P1!C6",
+          "growth": "03_攻击鲁棒_P1!D6",
+          "budget": "03_攻击鲁棒_P1!E6",
+          "budget_note": "03_攻击鲁棒_P1!F6"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Set-PPO",
+        "attacker": "E0 reference",
+        "access": "不看当前消息metadata",
+        "growth": 1.93,
+        "budget": 20,
+        "overlap_with": [
+          "main-01"
+        ]
+      },
+      {
+        "id": "attacker-02",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A7",
+          "attacker": "03_攻击鲁棒_P1!B7",
+          "access": "03_攻击鲁棒_P1!C7",
+          "growth": "03_攻击鲁棒_P1!D7",
+          "budget": "03_攻击鲁棒_P1!E7",
+          "budget_note": "03_攻击鲁棒_P1!F7"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Set-PPO",
+        "attacker": "E0 adapted",
+        "access": "不看当前消息metadata；单独适应",
+        "growth": 2.17,
+        "budget": 20,
+        "overlap_with": []
+      },
+      {
+        "id": "attacker-03",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A8",
+          "attacker": "03_攻击鲁棒_P1!B8",
+          "access": "03_攻击鲁棒_P1!C8",
+          "growth": "03_攻击鲁棒_P1!D8",
+          "budget": "03_攻击鲁棒_P1!E8",
+          "budget_note": "03_攻击鲁棒_P1!F8"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Set-PPO",
+        "attacker": "E1 reference",
+        "access": "可看类型与目标读者",
+        "growth": 2.28,
+        "budget": 20,
+        "overlap_with": []
+      },
+      {
+        "id": "attacker-04",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A9",
+          "attacker": "03_攻击鲁棒_P1!B9",
+          "access": "03_攻击鲁棒_P1!C9",
+          "growth": "03_攻击鲁棒_P1!D9",
+          "budget": "03_攻击鲁棒_P1!E9",
+          "budget_note": "03_攻击鲁棒_P1!F9"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Set-PPO",
+        "attacker": "E1 adapted",
+        "access": "可看类型与目标读者；单独适应",
+        "growth": 2.53,
+        "budget": 20,
+        "overlap_with": []
+      },
+      {
+        "id": "attacker-05",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A10",
+          "attacker": "03_攻击鲁棒_P1!B10",
+          "access": "03_攻击鲁棒_P1!C10",
+          "growth": "03_攻击鲁棒_P1!D10",
+          "budget": "03_攻击鲁棒_P1!E10",
+          "budget_note": "03_攻击鲁棒_P1!F10"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Set-PPO",
+        "attacker": "E2 KREQ-visible",
+        "access": "新增：可观察KREQ；须定义消耗",
+        "growth": 2.78,
+        "budget": 20,
+        "overlap_with": []
+      },
+      {
+        "id": "attacker-06",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A11",
+          "attacker": "03_攻击鲁棒_P1!B11",
+          "access": "03_攻击鲁棒_P1!C11",
+          "growth": "03_攻击鲁棒_P1!D11",
+          "budget": "03_攻击鲁棒_P1!E11",
+          "budget_note": "03_攻击鲁棒_P1!F11"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "CPO",
+        "attacker": "E0 reference",
+        "access": "不看当前消息metadata",
+        "growth": 2.17,
+        "budget": 20,
+        "overlap_with": [
+          "main-02"
+        ]
+      },
+      {
+        "id": "attacker-07",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A12",
+          "attacker": "03_攻击鲁棒_P1!B12",
+          "access": "03_攻击鲁棒_P1!C12",
+          "growth": "03_攻击鲁棒_P1!D12",
+          "budget": "03_攻击鲁棒_P1!E12",
+          "budget_note": "03_攻击鲁棒_P1!F12"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "CPO",
+        "attacker": "E0 adapted",
+        "access": "不看当前消息metadata；单独适应",
+        "growth": 2.42,
+        "budget": 20,
+        "overlap_with": []
+      },
+      {
+        "id": "attacker-08",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A13",
+          "attacker": "03_攻击鲁棒_P1!B13",
+          "access": "03_攻击鲁棒_P1!C13",
+          "growth": "03_攻击鲁棒_P1!D13",
+          "budget": "03_攻击鲁棒_P1!E13",
+          "budget_note": "03_攻击鲁棒_P1!F13"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "CPO",
+        "attacker": "E1 reference",
+        "access": "可看类型与目标读者",
+        "growth": 2.52,
+        "budget": 20,
+        "overlap_with": []
+      },
+      {
+        "id": "attacker-09",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A14",
+          "attacker": "03_攻击鲁棒_P1!B14",
+          "access": "03_攻击鲁棒_P1!C14",
+          "growth": "03_攻击鲁棒_P1!D14",
+          "budget": "03_攻击鲁棒_P1!E14",
+          "budget_note": "03_攻击鲁棒_P1!F14"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "CPO",
+        "attacker": "E1 adapted",
+        "access": "可看类型与目标读者；单独适应",
+        "growth": 2.78,
+        "budget": 20,
+        "overlap_with": []
+      },
+      {
+        "id": "attacker-10",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A15",
+          "attacker": "03_攻击鲁棒_P1!B15",
+          "access": "03_攻击鲁棒_P1!C15",
+          "growth": "03_攻击鲁棒_P1!D15",
+          "budget": "03_攻击鲁棒_P1!E15",
+          "budget_note": "03_攻击鲁棒_P1!F15"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "CPO",
+        "attacker": "E2 KREQ-visible",
+        "access": "新增：可观察KREQ；须定义消耗",
+        "growth": 3.09,
+        "budget": 20,
+        "overlap_with": []
+      },
+      {
+        "id": "attacker-11",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A16",
+          "attacker": "03_攻击鲁棒_P1!B16",
+          "access": "03_攻击鲁棒_P1!C16",
+          "growth": "03_攻击鲁棒_P1!D16",
+          "budget": "03_攻击鲁棒_P1!E16",
+          "budget_note": "03_攻击鲁棒_P1!F16"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "RCPO",
+        "attacker": "E0 reference",
+        "access": "不看当前消息metadata",
+        "growth": 2.13,
+        "budget": 20,
+        "overlap_with": [
+          "main-03"
+        ]
+      },
+      {
+        "id": "attacker-12",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A17",
+          "attacker": "03_攻击鲁棒_P1!B17",
+          "access": "03_攻击鲁棒_P1!C17",
+          "growth": "03_攻击鲁棒_P1!D17",
+          "budget": "03_攻击鲁棒_P1!E17",
+          "budget_note": "03_攻击鲁棒_P1!F17"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "RCPO",
+        "attacker": "E0 adapted",
+        "access": "不看当前消息metadata；单独适应",
+        "growth": 2.39,
+        "budget": 20,
+        "overlap_with": []
+      },
+      {
+        "id": "attacker-13",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A18",
+          "attacker": "03_攻击鲁棒_P1!B18",
+          "access": "03_攻击鲁棒_P1!C18",
+          "growth": "03_攻击鲁棒_P1!D18",
+          "budget": "03_攻击鲁棒_P1!E18",
+          "budget_note": "03_攻击鲁棒_P1!F18"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "RCPO",
+        "attacker": "E1 reference",
+        "access": "可看类型与目标读者",
+        "growth": 2.48,
+        "budget": 20,
+        "overlap_with": []
+      },
+      {
+        "id": "attacker-14",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A19",
+          "attacker": "03_攻击鲁棒_P1!B19",
+          "access": "03_攻击鲁棒_P1!C19",
+          "growth": "03_攻击鲁棒_P1!D19",
+          "budget": "03_攻击鲁棒_P1!E19",
+          "budget_note": "03_攻击鲁棒_P1!F19"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "RCPO",
+        "attacker": "E1 adapted",
+        "access": "可看类型与目标读者；单独适应",
+        "growth": 2.72,
+        "budget": 20,
+        "overlap_with": []
+      },
+      {
+        "id": "attacker-15",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A20",
+          "attacker": "03_攻击鲁棒_P1!B20",
+          "access": "03_攻击鲁棒_P1!C20",
+          "growth": "03_攻击鲁棒_P1!D20",
+          "budget": "03_攻击鲁棒_P1!E20",
+          "budget_note": "03_攻击鲁棒_P1!F20"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "RCPO",
+        "attacker": "E2 KREQ-visible",
+        "access": "新增：可观察KREQ；须定义消耗",
+        "growth": 3.02,
+        "budget": 20,
+        "overlap_with": []
+      },
+      {
+        "id": "attacker-16",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A21",
+          "attacker": "03_攻击鲁棒_P1!B21",
+          "access": "03_攻击鲁棒_P1!C21",
+          "growth": "03_攻击鲁棒_P1!D21",
+          "budget": "03_攻击鲁棒_P1!E21",
+          "budget_note": "03_攻击鲁棒_P1!F21"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Knowledge-aware Greedy",
+        "attacker": "E0 reference",
+        "access": "不看当前消息metadata",
+        "growth": 2.25,
+        "budget": 20,
+        "overlap_with": [
+          "main-04"
+        ]
+      },
+      {
+        "id": "attacker-17",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A22",
+          "attacker": "03_攻击鲁棒_P1!B22",
+          "access": "03_攻击鲁棒_P1!C22",
+          "growth": "03_攻击鲁棒_P1!D22",
+          "budget": "03_攻击鲁棒_P1!E22",
+          "budget_note": "03_攻击鲁棒_P1!F22"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Knowledge-aware Greedy",
+        "attacker": "E0 adapted",
+        "access": "不看当前消息metadata；单独适应",
+        "growth": 2.51,
+        "budget": 20,
+        "overlap_with": []
+      },
+      {
+        "id": "attacker-18",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A23",
+          "attacker": "03_攻击鲁棒_P1!B23",
+          "access": "03_攻击鲁棒_P1!C23",
+          "growth": "03_攻击鲁棒_P1!D23",
+          "budget": "03_攻击鲁棒_P1!E23",
+          "budget_note": "03_攻击鲁棒_P1!F23"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Knowledge-aware Greedy",
+        "attacker": "E1 reference",
+        "access": "可看类型与目标读者",
+        "growth": 2.59,
+        "budget": 20,
+        "overlap_with": []
+      },
+      {
+        "id": "attacker-19",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A24",
+          "attacker": "03_攻击鲁棒_P1!B24",
+          "access": "03_攻击鲁棒_P1!C24",
+          "growth": "03_攻击鲁棒_P1!D24",
+          "budget": "03_攻击鲁棒_P1!E24",
+          "budget_note": "03_攻击鲁棒_P1!F24"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Knowledge-aware Greedy",
+        "attacker": "E1 adapted",
+        "access": "可看类型与目标读者；单独适应",
+        "growth": 2.89,
+        "budget": 20,
+        "overlap_with": []
+      },
+      {
+        "id": "attacker-20",
+        "group": "attacker",
+        "source_cells": {
+          "method": "03_攻击鲁棒_P1!A25",
+          "attacker": "03_攻击鲁棒_P1!B25",
+          "access": "03_攻击鲁棒_P1!C25",
+          "growth": "03_攻击鲁棒_P1!D25",
+          "budget": "03_攻击鲁棒_P1!E25",
+          "budget_note": "03_攻击鲁棒_P1!F25"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Knowledge-aware Greedy",
+        "attacker": "E2 KREQ-visible",
+        "access": "新增：可观察KREQ；须定义消耗",
+        "growth": 3.18,
+        "budget": 20,
+        "overlap_with": []
+      }
+    ],
+    "residual": [
+      {
+        "id": "residual-01",
+        "group": "residual",
+        "source_cells": {
+          "method": "04_残差反馈_P2!A6",
+          "tcr": "04_残差反馈_P2!B6",
+          "growth": "04_残差反馈_P2!C6",
+          "kfb": "04_残差反馈_P2!D6",
+          "localization": "04_残差反馈_P2!E6"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Residual KREQ",
+        "tcr": 88.7,
+        "growth": 1.93,
+        "kfb": 0.69,
+        "localization": 79.8,
+        "overlap_with": [
+          "main-01",
+          "ablation-01"
+        ],
+        "kfb_reduction_vs_posterior_pct": 46.51162790697674
+      },
+      {
+        "id": "residual-02",
+        "group": "residual",
+        "source_cells": {
+          "method": "04_残差反馈_P2!A7",
+          "tcr": "04_残差反馈_P2!B7",
+          "growth": "04_残差反馈_P2!C7",
+          "kfb": "04_残差反馈_P2!D7",
+          "localization": "04_残差反馈_P2!E7"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Posterior Gap",
+        "tcr": 86.9,
+        "growth": 2.1,
+        "kfb": 1.29,
+        "localization": 68.4,
+        "overlap_with": [
+          "ablation-03"
+        ]
+      },
+      {
+        "id": "residual-03",
+        "group": "residual",
+        "source_cells": {
+          "method": "04_残差反馈_P2!A8",
+          "tcr": "04_残差反馈_P2!B8",
+          "growth": "04_残差反馈_P2!C8",
+          "kfb": "04_残差反馈_P2!D8",
+          "localization": "04_残差反馈_P2!E8"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Shuffled Residual",
+        "tcr": 72.4,
+        "growth": 2.38,
+        "kfb": 1.59,
+        "localization": 47.6,
+        "overlap_with": []
+      },
+      {
+        "id": "residual-04",
+        "group": "residual",
+        "source_cells": {
+          "method": "04_残差反馈_P2!A9",
+          "tcr": "04_残差反馈_P2!B9",
+          "growth": "04_残差反馈_P2!C9",
+          "kfb": "04_残差反馈_P2!D9",
+          "localization": "04_残差反馈_P2!E9"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Random Gap",
+        "tcr": 69.1,
+        "growth": 2.52,
+        "kfb": 1.72,
+        "localization": 35.9,
+        "overlap_with": []
+      },
+      {
+        "id": "residual-05",
+        "group": "residual",
+        "source_cells": {
+          "method": "04_残差反馈_P2!A10",
+          "tcr": "04_残差反馈_P2!B10",
+          "growth": "04_残差反馈_P2!C10",
+          "kfb": "04_残差反馈_P2!D10",
+          "localization": "04_残差反馈_P2!E10"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "method": "Oracle Gap",
+        "tcr": 92,
+        "growth": 1.88,
+        "kfb": 1.09,
+        "localization": 100.0,
+        "overlap_with": []
+      }
+    ],
+    "coverage": [
+      {
+        "id": "coverage-01",
+        "group": "coverage",
+        "source_cells": {
+          "dictionary_size": "05_覆盖泛化_P2!A6",
+          "train_coverage": "05_覆盖泛化_P2!B6",
+          "test_coverage": "05_覆盖泛化_P2!C6",
+          "tcr": "05_覆盖泛化_P2!D6",
+          "growth": "05_覆盖泛化_P2!E6"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "dictionary_size": 64,
+        "train_coverage": 44.8,
+        "test_coverage": 30.5,
+        "tcr": 85.8,
+        "growth": 1.68,
+        "overlap_with": []
+      },
+      {
+        "id": "coverage-02",
+        "group": "coverage",
+        "source_cells": {
+          "dictionary_size": "05_覆盖泛化_P2!A7",
+          "train_coverage": "05_覆盖泛化_P2!B7",
+          "test_coverage": "05_覆盖泛化_P2!C7",
+          "tcr": "05_覆盖泛化_P2!D7",
+          "growth": "05_覆盖泛化_P2!E7"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "dictionary_size": 96,
+        "train_coverage": 79.6,
+        "test_coverage": 70.8,
+        "tcr": 88.7,
+        "growth": 1.93,
+        "overlap_with": [
+          "main-01"
+        ]
+      },
+      {
+        "id": "coverage-03",
+        "group": "coverage",
+        "source_cells": {
+          "dictionary_size": "05_覆盖泛化_P2!A8",
+          "train_coverage": "05_覆盖泛化_P2!B8",
+          "test_coverage": "05_覆盖泛化_P2!C8",
+          "tcr": "05_覆盖泛化_P2!D8",
+          "growth": "05_覆盖泛化_P2!E8"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "dictionary_size": 128,
+        "train_coverage": 67.8,
+        "test_coverage": 57.1,
+        "tcr": 89.2,
+        "growth": 2.06,
+        "overlap_with": []
+      },
+      {
+        "id": "coverage-04",
+        "group": "coverage",
+        "source_cells": {
+          "dictionary_size": "05_覆盖泛化_P2!A9",
+          "train_coverage": "05_覆盖泛化_P2!B9",
+          "test_coverage": "05_覆盖泛化_P2!C9",
+          "tcr": "05_覆盖泛化_P2!D9",
+          "growth": "05_覆盖泛化_P2!E9"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "dictionary_size": 192,
+        "train_coverage": 74.2,
+        "test_coverage": 63.8,
+        "tcr": 90.1,
+        "growth": 2.22,
+        "overlap_with": []
+      },
+      {
+        "id": "coverage-05",
+        "group": "coverage",
+        "source_cells": {
+          "dictionary_size": "05_覆盖泛化_P2!A10",
+          "train_coverage": "05_覆盖泛化_P2!B10",
+          "test_coverage": "05_覆盖泛化_P2!C10",
+          "tcr": "05_覆盖泛化_P2!D10",
+          "growth": "05_覆盖泛化_P2!E10"
+        },
+        "source_workbook": "data/WWW2027_实验数据_.xlsx",
+        "dictionary_size": 256,
+        "train_coverage": 80.3,
+        "test_coverage": 79.6,
+        "tcr": 90.8,
+        "growth": 2.42,
+        "overlap_with": []
+      }
+    ]
+  }
+}
